@@ -1,4 +1,20 @@
 
+
+   <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  
+   $(function() {
+    $( "#datepicker2" ).datepicker();
+  });
+  
+   $(function() {
+    $( "#datepicker3" ).datepicker();
+  });
+  </script>
+
+
 	<script>
 
 	$(function() {
@@ -78,19 +94,6 @@
 </script>
 	     
 
-   <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  
-   $(function() {
-    $( "#datepicker2" ).datepicker();
-  });
-  
-   $(function() {
-    $( "#datepicker3" ).datepicker();
-  });
-  </script>
 
 <div class="row">
     <div class="col-sm-4">

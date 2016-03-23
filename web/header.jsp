@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="cummins_styles/bootstrap-editable.css">
     
        <script src="scripts/jquery-ui.js"></script>
+       <script src="scripts/datepicker.js"></script>
+       <link rel="stylesheet" href="css/datepicker.css">
+       
     <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/jquery-ui.structure.css">
@@ -60,9 +63,7 @@
     <script type="text/javascript" src="scripts/tableExport.js"></script>
 
 	<!-- DatePicker -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.1/css/bootstrap-datepicker.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.1/js/bootstrap-datepicker.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.1/locales/bootstrap-datepicker.es.min.js"></script>
+	
 	
 	<link rel="stylesheet" href="styles/bootstrapmodificado.min.css">
 
