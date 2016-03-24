@@ -19,9 +19,9 @@
   </script>
         
         <form name="myform" id="myform">
-            <div style="margin: 20px; height: 850px;">
+            <div style="margin: 20px; height: 100%;">
                 <div class="container-body">
-                    <div style="position:relative; display:block; left:20px; top:20px; height:25px; width:300px;"  class="form-group">
+                    <div style="position:relative; display:block; left:29px; top:20px; height:25px; width:300px;"  class="form-group">
                         <label class="col-lg-10" >Tipo:</label>
                         <div style="width:200px; position:relative;  left:40px; top:0px; margin: 0px; height: 25px;">
                             <div style="width:250px; position:relative; top:-24px; left:20px;">
@@ -141,7 +141,7 @@
                         
                         
                     </div>
-                    <br>
+                <br></br><br>
                     <div class="row">
                         <div class="col-sm-6" style="">
                             <div class="table-responsive" style="max-height:150px;" >

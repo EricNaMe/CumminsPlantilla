@@ -1,64 +1,94 @@
-    <%@include file="TEMPcatalogos.jsp"%>    
-        
-        <script src="js/calenEval.js"></script>
-        <script src="js/validaciones.js"></script>
-        
-            <form id="formCalenEval" >
+<%@include file="TEMPcatalogos.jsp"%>    
 
-                <div class="row">
+<script src="js/calenEval.js"></script>
+<script src="js/validaciones.js"></script>
 
-                    <div class="col-md-3  col-md-offset-2" >
-                        Numero de Evaluación:
-                        <input type="radio" name="numEval" value="1" id="numEval1">
-                        <label for="numEval1">1</label>
-                        <input type="radio" name="numEval" value="2" id="numEval2">
-                        <label for="numEval2">2</label>
-                    </div>
+<form id="formCalenEval" >
 
-                    <div class="col-md-3 " >
-                        Tipo:
-                        <input type="radio" name="tipoEval" value="1" id="TipoEval1">
-                        <label for="TipoEval1">Evalucación</label>
-                        <input type="radio" name="tipoEval" value="2" id="TipoEval2">
-                        <label for="TipoEval2">Pre evaluacion</label>
-                    </div>
+    <br></br><br>
 
-                </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <label  for="tipo_eval">Tipo de Evaluación:</label>
+            </div>
+            <div class="col-sm-8" >
+                <select class="form-control" id ="tipo_eval" name="tipo_eval" class="form-control" >
+                    <option value = '1' >Evaluación</option>
+                    <option value = '2' >Pre evaluación</option>
+                </select>
+            </div>
+        </div>
 
-                <div class="row">
-                    <div class="col-md-3 col-md-offset-2" >
-                        Año de Evaluación
-                        <select class="form-control" id="anioEval" name="anioEval" >
-                            <option></option>
-                            <option value="2014">2014</option>
-                            <option value="2015">2015</option>
-                            <option value="2016">2016</option>
-                            <option value="2017">2017</option>
-                            <option value="2018">2018</option>
-                        </select>
-                        Fecha inicio de Evaluación
+        <div class="col-sm-4">
+            <div class="col-sm-4">
+                <label  for="revision">Revisión:</label>
+            </div>
+            <div class="col-sm-6">
+                <select class="form-control" id ="revision" name="revision" class="form-control" >
+                    <option value = '1' >1a</option>
+                    <option value = '2' >2a</option>
+                    <option value = '3' >3a</option>
+                </select>
+            </div>    
+        </div>
 
-                        <input  type="text" placeholder="Fecha Inicio" name="fecIniEval" id="fecIniEval" class="form-control">
 
-                        Fecha Fin de Evaluación
+        <div class="col-xs-3">
+            <div class="col-sm-3 text-right">
+                <label for="sel1">Año:</label>
+            </div>
+            <div class="col-sm-9">
+                <select class="form-control" id="anioEval">
+                    <option>2005</option> <option>2006</option> <option>2007</option>
+                    <option>2008</option> <option>2009</option> <option>2010</option>
+                    <option>2011</option> <option>2012</option> <option>2013</option>
+                    <option>2014</option> <option>2015</option> <option>2016</option>
+                    <option>2017</option> <option>2018</option> <option>2019</option>
+                    <option>2020</option> <option>2021</option> <option>2022</option>
+                    <option>2023</option> <option>2024</option> <option>2025</option>
+                    <option>2026</option> <option>2027</option> <option>2028</option>
+                    <option>2029</option> <option>2030</option>
+                </select>
+            </div>
+        </div>
+    </div>
 
-                        <input  type="text" placeholder="Fecha Inicio" name="fecFinEval" id="fecFinEval" class="form-control">
+    <br></br>
 
-                        <div class="form-inline" >
-                            Estatus:
-                            <input type="radio" name="estatus" value="Y" id="estatus">
-                            <label for="status">Activo</label>
-                            <input type="radio" name="estatus" value="N" id="estatus2">
-                            <label for="status2">Inactivo</label>
-                        </div>
-                        <input type="button" value="Guardar" id = "Guardar" class ="btn btn-default" >
-                    </div>
-                </div>
 
-            </form>
+    <div  class="col-sm-5 col-sm-offset-4">
+        <label class="col-sm-3" >Estatus:</label>
 
-			<div class="table-responsive" >
-            	<table class="table table-striped" id="TableCalenEval" data-height="500"></table>
-			</div>
+        <div class="col-sm-8"> 
 
-    <%@include file="footer.jsp"%>
+            <label class="radio-inline">
+                <input type="radio" value="Y" name="estatus" id="estatus">Activo
+            </label>
+
+            <label class="radio-inline">
+                <input type="radio" value="N" name="estatus" id="estatus2">Inactivo
+            </label>
+        </div> 
+
+    </div> 
+
+
+
+    <br></br>
+
+
+    <div class="col-sm-3 col-sm-offset-5" >
+        <input type="button" value="Guardar" id = "Guardar" class ="btn btn-default" >
+    </div>
+
+
+</form>
+
+<div class="col-sm-12">
+    <div class="table-responsive" >
+        <table class="table table-striped" id="TableCalenEval" data-height="500"></table>
+    </div>
+</div>
+
+<%@include file="footer.jsp"%>

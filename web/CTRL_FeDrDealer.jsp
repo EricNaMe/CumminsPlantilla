@@ -143,7 +143,7 @@
 </div>
 
 
-</div>
+
 
 
 <br>  
@@ -167,10 +167,10 @@
 </div>
 
 <div class="col-sm-4"> 
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:47%;">
         <label for="Modl">Fecha evaluación:</label>
     </div>
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:53%";>
         <input id="datepicker" class="form-control" type="text" value=""/>
     </div>
 </div>
@@ -181,7 +181,7 @@
 
 
 <div class="col-sm-4">
-    <div class="col-xs-3">
+    <div class="col-xs-3" >
         <label class="" for="usr">Dealer:</label>
     </div>
     <div class="col-xs-9">
@@ -189,19 +189,19 @@
     </div>
 </div>
 <div class="col-sm-4">
-    <div class="col-xs-6">
+    <div class="col-xs-6" >
         <label class="" for="usr">Código Dealer:</label>
     </div>
-    <div class="col-xs-5">
+    <div class="col-xs-5" >
         <input type="text"  class="col-md-7 form-control" id="codigoDeal">
     </div>
 </div>
 
 <div class="col-sm-4">
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:47%;">
         <label for="Modl">Fecha inicio evaluación:</label>
     </div>
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:53%;">
         <input id="datepicker2" class="form-control" type="text" value=""/>
     </div>
 </div>    
@@ -216,10 +216,10 @@
 
 
 <div style="" class="col-sm-4 col-sm-offset-8">
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:47%;">
         <label for="Modl">Fecha fin evaluación:</label>
     </div>
-    <div class="col-xs-6">
+    <div class="col-xs-6" style="width:53%;">
         <input id="datepicker3" class="form-control" type="text" value=""/>
     </div>
 </div> 

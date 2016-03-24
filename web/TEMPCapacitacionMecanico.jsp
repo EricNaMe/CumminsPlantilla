@@ -1,6 +1,5 @@
 <%@include file="TEMPcapacitacion.jsp"%>
 
-<script src="js/capacitamecanico.js"></script>
 
 
 
